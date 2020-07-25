@@ -1,0 +1,1 @@
+[10-Jun-2015 07:58:08 UTC] PHP Parse error:  syntax error, unexpected '$admin' (T_VARIABLE) in /home/ptindiao/public_html/charity/modules/volunteer/controllers/RegisterController.php on line 58
