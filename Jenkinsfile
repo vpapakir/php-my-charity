@@ -9,12 +9,9 @@ pipeline {
     stage('Prod') {
       steps {
         sh '''#!/bin/bash
-
-pwd
-
-ls -la'''
+cp -Rvf ./* /var/www/vhosts/vpapakir.eu/charity.vpapakir.eu/
+'''
       }
     }
-
   }
 }
