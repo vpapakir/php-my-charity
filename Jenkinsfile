@@ -1,11 +1,18 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'web'
+    }
+
+  }
   stages {
     stage('Prod') {
       steps {
         sh '''#!/bin/bash
 
-echo "Done!"'''
+pwd
+
+ls -la'''
       }
     }
 
