@@ -13,6 +13,5 @@ cp -Rvf ./* /var/www/vhosts/vpapakir.eu/charity.vpapakir.eu/
 '''
       }
     }
-
   }
 }
